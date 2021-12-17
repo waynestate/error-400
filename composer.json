@@ -1,10 +1,10 @@
 {
-    "name": "waynestate/error-500",
+    "name": "waynestate/error-400",
     "version": "1.1.4",
     "type": "library",
-    "description": "Wayne State University Error 500 HTTP Status",
-    "keywords": ["status","http","error","500"],
-    "homepage": "https://github.com/waynestate/error-500",
+    "description": "Wayne State University Error 400 HTTP Status",
+    "keywords": ["status","http","error","400"],
+    "homepage": "https://github.com/waynestate/error-400",
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/waynestate/error-500/issues",
-        "source": "https://github.com/waynestate/error-500"
+        "issues": "https://github.com/waynestate/error-400/issues",
+        "source": "https://github.com/waynestate/error-400"
     },
     "require": {
         "php": ">=5.3.0"

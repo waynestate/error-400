@@ -52,12 +52,12 @@ gulp.task('styles', function () {
 gulp.task('symlink', function(){
     gulp.src(targetAppDir)
         .pipe(sym('www.80', { force: true}));
-    gulp.src(targetAppDir + '/500.css')
-        .pipe(sym(targetAppDir + '/_resources/css/500.css', { force: true}));
-    gulp.src(targetAppDir + '/500.css.map')
-        .pipe(sym(targetAppDir + '/_resources/css/500.css.map', { force: true}));
-    gulp.src(targetAppDir + '/500.png')
-        .pipe(sym(targetAppDir + '/_resources/images/500.png', { force: true}));
+    gulp.src(targetAppDir + '/400.css')
+        .pipe(sym(targetAppDir + '/_resources/css/400.css', { force: true}));
+    gulp.src(targetAppDir + '/400.css.map')
+        .pipe(sym(targetAppDir + '/_resources/css/400.css.map', { force: true}));
+    gulp.src(targetAppDir + '/400.png')
+        .pipe(sym(targetAppDir + '/_resources/images/400.png', { force: true}));
 });
 
 

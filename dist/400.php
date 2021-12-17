@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>500 Internal Server Error  - Wayne State University</title>
+        <title>400 Bad Request - Wayne State University</title>
         <meta name="keywords" content="Wayne State University, wayne.edu, Wayne, State, University, Detroit, Michigan, MI, 48202, urban, research, education, college" />
         <meta name="description" content="Michigan's only urban public research university. With more than 400 degree programs and a location in the heart of Detroit's cultural center, Wayne State offers a distinctive educational experience to students from around the world." />
         <meta name="language" content="en" />
@@ -11,7 +11,7 @@
         <meta name="DC.publisher" content="Wayne State University" />
         <meta name="DC.description" content="Michigan's only urban public research university. With more than 400 degree programs and a location in the heart of Detroit's cultural center, Wayne State offers a distinctive educational experience to students from around the world." />
         <meta name="DC.format" content="text/html" />
-        <link href="/_resources/css/500.css" rel="stylesheet" type="text/css"  media="all" />
+        <link href="/_resources/css/400.css" rel="stylesheet" type="text/css"  media="all" />
         <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -70,7 +70,7 @@
         <main class="center-site">
             <div class="row">
                 <div id="content" class="content xlarge-offset-1 large-6 xlarge-5 columns" tabindex="-1">
-                    <h1>500</h1>
+                    <h1>400</h1>
                     <h2>Oops! Looks like<br /> something went wrong!</h2>
                     <p>We track these errors automatically, but if the<br /> problem persists feel free to <a href="mailto:web@wayne.edu">contact us</a>.<br /> In the meantime, try <a href="#" onClick="window.location.reload(true);">refreshing</a>.</p>
                 </div>
@@ -89,7 +89,7 @@
 
             ga('create', 'UA-35684592-1', 'wayne.edu', {'name': 'allWayneState'});
             ga('allWayneState.send', 'pageview');
-            ga('allWayneState.send', 'event', 'Error', '500', 'page: //{{ $request->server("HTTP_HOST") }}{{ $request->server("REQUEST_URI") }} ref: {{ $request->server("HTTP_REFERER") }}');
+            ga('allWayneState.send', 'event', 'Error', '400', 'page: //{{ $request->server("HTTP_HOST") }}{{ $request->server("REQUEST_URI") }} ref: {{ $request->server("HTTP_REFERER") }}');
         </script>
     </body>
 </html>
