@@ -9,4 +9,4 @@ Error 400 page
 - `yarn`
 - `gulp`
 
-Do not change any of the 
+Do not change the node or php versions.
